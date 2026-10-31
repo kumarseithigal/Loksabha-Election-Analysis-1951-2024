@@ -1,6 +1,6 @@
 # 🇮🇳 Lok Sabha Election Results Analysis (1951–2024)
 
-An end-to-end data analysis project exploring India's Lok Sabha General Election results from **1951 to 2024** using Python, Jupyter Notebook, Excel, and Microsoft Power BI.
+An end-to-end data analysis project exploring India's Lok Sabha General Election results from **1951 to 2024** using Python, SQL, Jupyter Notebook, Excel, and Microsoft Power BI.
 
 This project focuses on analysing historical election data, understanding party performance, examining electoral competition, identifying voting patterns, and presenting insights through an interactive Power BI dashboard.
 
@@ -25,11 +25,11 @@ The project combines **Python-based exploratory data analysis (EDA)** with an **
 | Technology | Purpose |
 |---|---|
 | Python | Data cleaning and analysis |
+| SQL | Data querying and analysis |
 | Jupyter Notebook | Exploratory data analysis |
 | Pandas | Data manipulation |
 | NumPy | Numerical operations |
 | Matplotlib | Data visualisation |
-| Seaborn | Statistical visualisation |
 | Microsoft Excel | Historical election dataset |
 | Microsoft Power BI | Interactive dashboard |
 | DAX | Dashboard calculations and measures |
@@ -181,10 +181,10 @@ git clone https://github.com/kumarseithigal/Loksabha-Election-Analysis-1951-2024
 cd Loksabha-Election-Analysis-1951-2024
 ```
 
-### 3. Install Required Python Libraries
+### 3. Install Required Python Packages
 
 ```bash
-pip install pandas numpy matplotlib seaborn openpyxl jupyter
+pip install pandas numpy matplotlib openpyxl jupyter
 ```
 
 ### 4. Open Jupyter Notebook
@@ -197,7 +197,7 @@ jupyter notebook
 
 Open:
 
-`LOK_SABHA_ANALYSIS_CLEANED.ipynb`
+`LOK_SABHA_ANALYSIS 1951-2024.ipynb`
 
 Make sure the Excel dataset is available in the expected working directory, then execute the notebook cells in order.
 
@@ -247,7 +247,8 @@ Therefore, long-term historical comparisons should be interpreted with these lim
 
 [🌐 Portfolio Website](https://sathiskumar.com)
 
-Data Analysis | Python | Power BI | Data Visualisation
+*Data Analysis | Python | SQL | Power BI | Data Visualisation*
+
 ---
 
 *This project is developed for educational, analytical, and historical exploration of Indian Lok Sabha election results.*
